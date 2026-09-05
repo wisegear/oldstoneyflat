@@ -115,7 +115,7 @@
             <section class="story-chapter" aria-labelledby="chapter-8">
                 <p class="story-period">2026</p>
                 <h2 id="chapter-8">Old Stoney Flat</h2>
-                <p>Now it is our turn to look after it.</p>
+                <p>Now it is the next generation’s turn to look after it.</p>
                 <p>In 2026 we began the process of renovating the flat — not to strip away its character or turn it into another anonymous holiday apartment, but to give it another chapter.</p>
                 <p>The work will bring new heating, a new kitchen and bathroom, decoration and all the practical things an old flat needs.</p>
                 <p>But the important parts won&#x27;t change.</p>
