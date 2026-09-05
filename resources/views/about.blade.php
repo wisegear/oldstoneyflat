@@ -89,7 +89,7 @@
                 <h2 id="chapter-6">The flat becomes home</h2>
                 <p>The present flat at 56 High Street became part of our family&#x27;s story in 1957, when the first member of our family moved into it.</p>
                 <p>From then on, the flat became a constant.</p>
-                <p>Children grew up knowing it. Family visited. Generations stood at the windows looking towards the old town, harbour and sea.</p>
+                <p>Children grew up knowing it. Family visited. Generations stood at the windows looking towards the old town, harbour and sea, and watching the fireballs at New Year.</p>
                 <p>Stonehaven changed around it, but the flat remained part of the family.</p>
             </section>
         </li>
