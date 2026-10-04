@@ -12,14 +12,14 @@
         </div>
         </div>
         <div class="story-header-image">
-            <x-history-postcard image="stonehaven-old-town.jpg" caption="The old town · Stonehaven" period="Our corner of Stonehaven" />
+            <x-history-postcard image="view-from-56-high-street.jpg" caption="The view from the Kitchen of 56 High Street." period="Our corner of Stonehaven" />
         </div>
         <p class="story-index">Stonehaven · A family story · 1880s–today</p>
     </header>
     <ol class="story-timeline" aria-label="Our family history">
         <li class="story-entry">
             <div class="story-images">
-                <x-history-postcard image="allardice-street-1880s.jpg" caption="Allardice Street · 1880s" period="1880s" />
+                <x-history-postcard image="high-street-1880s.jpg" caption="High Street · Stonehaven" period="1880s" />
             </div>
             <section class="story-chapter" aria-labelledby="chapter-1">
                 <p class="story-period">1880s</p>
@@ -57,7 +57,7 @@
         </li>
         <li class="story-entry">
             <div class="story-images">
-                <x-history-postcard image="ann-street-1920s.jpg" caption="Ann Street · Stonehaven · 1920s" period="1900–1920s" />
+                <x-history-postcard image="stonehaven-from-the-braes.jpg" caption="Over the rooftops towards Stonehaven Bay" period="1900–1920s" />
             </div>
             <section class="story-chapter" aria-labelledby="chapter-4">
                 <p class="story-period">1900–1920s</p>
@@ -95,8 +95,7 @@
         </li>
         <li class="story-entry">
             <div class="story-images">
-                <x-history-postcard image="family-memories.jpg" caption="Family life at 56 High Street" period="1950s–today" />
-                <x-history-postcard image="56-high-street-family.jpg" caption="At home, through the years" period="No. 56" class="history-postcard-secondary" />
+                <x-history-postcard image="high-street-outside.jpg" caption="Family life at 56 High Street" period="1950s–today" />
             </div>
             <section class="story-chapter" aria-labelledby="chapter-7">
                 <p class="story-period">1950s–today</p>
@@ -110,7 +109,7 @@
         </li>
         <li class="story-entry">
             <div class="story-images">
-                <x-history-postcard image="flat-before-renovation.jpg" caption="The beginning of the next chapter · 2026" period="2026" />
+                <x-history-postcard image="under-construction.jpg" caption="The beginning of the next chapter · 2026" period="2026" />
             </div>
             <section class="story-chapter" aria-labelledby="chapter-8">
                 <p class="story-period">2026</p>

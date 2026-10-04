@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Old Stoney Flat, a welcoming holiday flat in Stonehaven, Aberdeenshire.">
+    <meta name="description" content="{{ $description ?? 'Old Stoney Flat, a welcoming holiday flat in Stonehaven, Aberdeenshire.' }}">
     <title>{{ isset($title) ? $title.' | ' : '' }}Old Stoney Flat</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
@@ -13,6 +13,7 @@
         <nav id="main-menu" class="main-menu" aria-label="Main navigation">
             <a @class(['active' => request()->routeIs('home')]) href="{{ route('home') }}">Home</a>
             <a @class(['active' => request()->routeIs('about')]) href="{{ route('about') }}">About</a>
+            <a @class(['active' => request()->routeIs('stonehaven')]) href="{{ route('stonehaven') }}" @if(request()->routeIs('stonehaven')) aria-current="page" @endif>Stonehaven</a>
             @auth
                 @if(auth()->user()->isAdministrator())<a @class(['active' => request()->routeIs('admin.*')]) href="{{ route('admin.dashboard') }}">Admin</a>@endif
                 <form method="POST" action="{{ route('logout') }}">@csrf<button type="submit">Log out</button></form>

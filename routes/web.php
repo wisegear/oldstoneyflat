@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'home')->name('home');
 Route::view('/about', 'about')->name('about');
+Route::view('/stonehaven', 'stonehaven')->name('stonehaven');
 
 Route::middleware('guest')->group(function (): void {
     Route::get('/login', [AuthenticatedSessionController::class, 'create'])->name('login');
